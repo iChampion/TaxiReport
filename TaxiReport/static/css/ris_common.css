@@ -1,0 +1,262 @@
+body {
+        background-color: #efefef;
+        font-family: "Trebuchet MS", Verdana, Sans-Serif;
+}
+table.top {
+        background: transparent url(/images/work/headt.png) repeat-x scroll top;
+        font-size: 100%;
+}
+h2 {
+        font-weight: normal;
+        font-size: 17pt;
+        margin-bottom: 0.1em;
+}
+h2.pad {
+	margin-top: 5px;
+}
+h3 {
+        font-weight: normal;
+        font-size: 110%;
+}
+.greenbox {
+        background-color: #8bca6b;
+        color: white;
+        text-align: center;
+}
+.greenbox a {
+        color: white;
+}
+
+.filterbox {
+        background-color: #f4f4f4;
+        color: black;
+        text-align: left;
+}
+
+.whitebox {
+        background-color: #ffffff;
+        color: black;
+        overflow: auto;
+       	width: 100%;
+        text-align: left;
+}
+
+.whitebox table.ctrl {
+        background-color: #90cd72;
+        border-collapse: collapse;
+}
+.whitebox table.ctrl th {
+        background: transparent url(/images/work/thead.png) repeat-x scroll top;
+        color: white;
+        text-align: center;
+        font-weight: normal;
+        padding: 0.3em 0.4em 0.3em 0.4em;
+}
+.whitebox table.ctrl td {
+        background-color: #f5f5f5;
+        border-style: solid;
+        border-color: #e0e0e0;
+        border-width: 1px;
+        vertical-align: top;
+        padding: 0.3em 0.4em 0.3em 0.4em;
+        cursor: pointer;
+}
+.whitebox table.ctrl tr.ro td {
+        cursor: auto;
+}
+.whitebox table.ctrl a {
+        color: #000000;
+        font-style: normal;
+}
+.whitebox table.ctrl thead tr {
+        height: 2.5em;
+        border-style: solid;
+        border-color: #90cd72;
+        border-width: 1px;
+}
+.whitebox table.ctrl tr.odd td {
+        background-color: #ffffff;
+}
+.whitebox table.ctrl tr.activerow td {
+        border-color: #90cd72;
+        background-color: #b0ed92;
+}
+table.ctrl td.int, table.ctrl td.float {
+        text-align: right;
+}
+table.ctrl td.int, table.ctrl td.float {
+        white-space: nowrap;
+}
+table.ctrl td.number {
+        text-align: right;
+        width: 1.5em;
+}
+
+.singleframe {
+        1background-color: #abba9b;
+        1padding: 1px;
+}
+
+
+.ltl {
+        background: transparent url(/images/work/tl.png) no-repeat scroll top left;
+}
+.ltc {
+        background: transparent url(/images/work/tc.png) repeat-x scroll top;
+}
+.ltr {
+        background: transparent url(/images/work/tr.png) no-repeat scroll top right;
+}
+.lcl {
+        background: transparent url(/images/work/cl.png) repeat-y scroll left;
+}
+.lcr {
+        background: transparent url(/images/work/cr.png) repeat-y scroll right;
+}
+.lbl {
+        background: transparent url(/images/work/bl.png) no-repeat scroll bottom left;
+        padding: 15px 30px 30px 30px;
+}
+.lbc {
+        background: transparent url(/images/work/bc.png) repeat-x scroll bottom;
+}
+.lbr {
+        background: transparent url(/images/work/br.png) no-repeat scroll bottom right;
+}
+
+.stl {
+        background: transparent url(/images/work/stl.png) no-repeat scroll top left;
+}
+.stc {
+        background: transparent url(/images/work/stc.png) repeat-x scroll top;
+}
+.str {
+        background: transparent url(/images/work/str.png) no-repeat scroll top right;
+}
+.scl {
+        background: transparent url(/images/work/scl.png) repeat-y scroll left;
+}
+.scr {
+        background: transparent url(/images/work/scr.png) repeat-y scroll right;
+}
+.sbl {
+        background: transparent url(/images/work/sbl.png) no-repeat scroll bottom left;
+        padding: 4px 4px 4px 4px;
+}
+.sbc {
+        background: transparent url(/images/work/sbc.png) repeat-x scroll bottom;
+}
+.sbr {
+        background: transparent url(/images/work/sbr.png) no-repeat scroll bottom right;
+}
+
+.wtl {
+        background: transparent url(/images/work/wtl.png) no-repeat scroll top left;
+}
+.wtc {
+        background: transparent url(/images/work/wtc.png) repeat-x scroll top;
+}
+.wtr {
+        background: transparent url(/images/work/wtr.png) no-repeat scroll top right;
+}
+.wcl {
+        background: transparent url(/images/work/wcl.png) repeat-y scroll left;
+}
+.wcr {
+        background: transparent url(/images/work/wcr.png) repeat-y scroll right;
+}
+.wbl {
+        background: transparent url(/images/work/wbl.png) no-repeat scroll bottom left;
+        padding: 12px 20px 12px 20px;
+}
+.wbc {
+        background: transparent url(/images/work/wbc.png) repeat-x scroll bottom;
+}
+.wbr {
+        background: transparent url(/images/work/wbr.png) no-repeat scroll bottom right;
+}
+
+
+.greytext {
+        color: #393939;
+}
+a {
+        color: #2050ff;
+}
+a.invalid {
+        color: #606060;
+        text-decoration: none;
+}
+
+
+.head_span {
+        margin-left: 60;
+        font-size: 100%;
+}
+div.head_span a {
+        text-decoration: none;
+        color: black;
+}
+
+.button {
+	margin-right: 2em;
+	vertical-align: top;
+
+}
+
+
+.wait_form {
+        position: fixed;
+        left: 40%;
+        right: 40%;
+        bottom: 0%;
+        width: 20%;
+        background-color: #1b7e19;
+}
+.wait_form_content {
+        padding: 3 3 3 3;
+        text-align: center;
+        font-size: 100%;
+        color: #ffffff
+}
+
+
+body {
+        font-family: "Trebuchet MS", Verdana, Sans-Serif;
+}
+
+.stage_label {
+        font-size: 100%;
+        font-family: "Trebuchet MS", Verdana, Sans-Serif;
+}
+.ctrl_label {
+        font-size: 100%;
+        font-family: "Trebuchet MS", Verdana, Sans-Serif;
+        color: #0f0f0f;
+}
+
+.ctrl {
+        font-size: 85%;
+        font-family: "Trebuchet MS", Verdana, Sans-Serif;
+        vertical-align: middle;
+}
+
+select.ctrl, input.ctrl, textarea.ctrl {
+        background: #ffffff url(/images/work/inpshad.png) no-repeat scroll top left;
+        font-size: 85%;
+        border-width: 1;
+        border-style: solid;
+        border-color: #64815f;
+        padding: 0 0 0 3;
+
+        padding: 3;
+        height: 2em;
+}
+input.ro, textarea.ro {
+        background: #efefef;
+}
+
+input.invalid, textarea.invalid {
+        background: #ffc0a0;
+}
+

@@ -1,0 +1,43 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+
+{% block cars %}
+    Iam a cars
+    <div class="jumbotron">
+    <table class="table table-striped">
+        <thead>
+        <tr class="success">
+            <th>№</th>
+            <th>Марка</th>
+            <th>Модель</th>
+            <th>VIN</th>
+            <th>Год выпуска</th>
+            <th>СТС</th>
+            <th>Гос Номер</th>
+            <th>В работе с</th>
+            <th>Ездит</th>
+            <th>Кто создал</th>
+            <th>Дата рег</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for r in cars %}
+            <tr>
+                <td class="number">{{ forloop.counter }}</td>
+                <td class="datetime ">{{ r.marka }}</td>
+                <td class="float ">{{ r.model }}</td>
+                <td class="float ">{{ r.vincode }}</td>
+                <td class="float ">{{ r.Agestart }}</td>
+                <td class="float ">{{ r.ctc }}</td>
+                <td class="float ">{{ r.number }}</td>
+                <td class="float ">{{ r.inwork }}</td>
+                <td class="float ">{{ r.active }}</td>
+                <td class="float ">{{ r.createown }}</td>
+                <td class="float ">{{ r.datacreate }}</td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+    </div>
+{% endblock %}
