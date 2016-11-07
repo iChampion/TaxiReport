@@ -15,3 +15,4 @@ class Cars(models.Model):
     createown = models.ForeignKey(User, unique=True)
     datacreate = models.DateTimeField('Дата заведения', blank=True, null=True)
 
+class test
