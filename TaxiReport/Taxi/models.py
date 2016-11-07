@@ -12,7 +12,5 @@ class Cars(models.Model):
     number = models.CharField('Гос Номер', max_length=24)
     inwork = models.DateTimeField('В работе с', blank=True, null=True)
     active = models.BooleanField('В работе')
-    createown = models.ForeignKey(User, unique=True)
+    createown = models.ForeignKey(User,)
     datacreate = models.DateTimeField('Дата заведения', blank=True, null=True)
-
-class test
