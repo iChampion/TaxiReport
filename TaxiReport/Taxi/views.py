@@ -17,3 +17,9 @@ def index(request):
 def cars(request):
     allcar = Cars.objects.all()
     return render_to_response('car.html', {'cars': allcar, })
+
+def testp(request):
+    a = 123
+    b = 321
+    c = a * b
+    return c
